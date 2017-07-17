@@ -1,0 +1,324 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.content {
+  padding: 0 0.4rem;
+}
+
+.header img {
+  width: 100%;
+}
+
+.sub-title {
+  text-align: center;
+  color: #333;
+  padding: 0.52rem 0;
+}
+
+[data-dpr="1"] .sub-title {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .sub-title {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .sub-title {
+  font-size: 42px;
+}
+
+.sub-title i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.413333rem;
+  border-top: 1px solid #000000;
+  margin-right: 0.16rem;
+}
+
+.sub-title .sub-title-linel {
+  margin-right: 0.16rem;
+}
+
+.sub-title .sub-title-liner {
+  margin-left: 0.16rem;
+}
+
+.sec-mar-top {
+  margin-top: 0.266667rem;
+}
+
+.sec-bk {
+  background-color: #fff;
+  padding-bottom: 0.506667rem;
+}
+
+.tutor-top {
+  width: 4.453333rem;
+  height: 2.533333rem;
+  -webkit-border-radius: 0.093333rem;
+  -moz-border-radius: 0.093333rem;
+  border-radius: 0.093333rem;
+}
+
+.link-a {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.link-a div {
+  -webkit-border-radius: 0.093333rem;
+  -moz-border-radius: 0.093333rem;
+  border-radius: 0.093333rem;
+}
+
+.mar22-a {
+  margin-left: 0.133333rem;
+}
+
+.bk-top-blue {
+  background: url("../images/college/shizhan1.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-top-blue2 {
+  background: url("../images/apply/bk-dingjian.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-top-red {
+  background: url("../images/college/shizhan2.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-top-red2 {
+  background: url("../images/apply/bk-zhengshu.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.tutor-top i {
+  margin-top: 0.093333rem;
+  margin-left: 0.133333rem;
+  display: inline-block;
+  flex: 1;
+}
+
+.gmatIcon {
+  width: 0.773333rem;
+  height: 0.746667rem;
+  background: url("../images/college/gmat.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.gmatIcon2 {
+  width: 0.813333rem;
+  height: 0.786667rem;
+  background: url("../images/apply/zhengshu.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.vipIcon {
+  width: 0.773333rem;
+  height: 0.72rem;
+  background: url("../images/college/gmat2.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.vipIcon2 {
+  width: 0.773333rem;
+  height: 0.786667rem;
+  background: url("../images/apply/zhengshu2.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.tutor-p {
+  font-size: 0.32rem;
+  color: #fff;
+  line-height: 0.506667rem;
+  margin-left: 0.133333rem;
+}
+
+.tutor-p p:nth-child(1) {
+  width: 3.373333rem;
+  font-size: 0.373333rem;
+  font-weight: bold;
+}
+
+.tutor-p p:nth-child(2) {
+  margin-top: 0;
+}
+
+.sec-bk .content div:nth-child(2) a .tutor-p p:nth-child(2) {
+  margin-top: 0.093333rem;
+}
+
+.tutor-top .tutor-p {
+  flex: 5;
+}
+
+.tutor-bottom {
+  width: 2.88rem;
+  height: 2.333333rem;
+}
+
+.bk-bottom-1 {
+  background: url("../images/college/fdPic3.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-bottom-2 {
+  background: url("../images/college/fdPic4.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-bottom-3 {
+  background: url("../images/college/fdPic5.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-bottom-1-1 {
+  background: url("../images/apply/pic1.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-bottom-2-2 {
+  background: url("../images/apply/pic2.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.bk-bottom-3-3 {
+  background: url("../images/apply/pic3.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.sec-bk .content>div {
+  margin-top: 0.266667rem;
+}
+
+.sec-bk .content>div:first-child {
+  margin-top: 0;
+}
+
+.contact .items {
+  padding: 0.293333rem 0;
+}
+
+.contact .items:first-of-type {
+  padding-top: 0;
+}
+
+.contact .items:last-of-type {
+  border-bottom: none;
+}
+
+.items div {
+  flex: 1;
+  color: #323232;
+}
+
+[data-dpr="1"] .items div {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .items div {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .items div {
+  font-size: 42px;
+}
+
+.items i {
+  display: inline-block;
+  margin-right: 0.213333rem;
+}
+
+.contact .icon1 {
+  width: 0.426667rem;
+  height: 0.466667rem;
+  background: url("../images/college/headIcon.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.contact .icon2 {
+  width: 0.426667rem;
+  height: 0.48rem;
+  background: url("../images/college/phone.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.contact .icon3 {
+  width: 0.373333rem;
+  height: 0.48rem;
+  background: url("../images/college/location.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+/*.tese .items{*/
+
+/*padding:15px 0 0;*/
+
+/*}*/
+
+/*.items-img-l{*/
+
+/*width:78px;*/
+
+/*height:78px;*/
+
+/*margin-right:12px;*/
+
+/*}*/
+
+/*.items-txt-r {*/
+
+/*padding:7px 0 24px;*/
+
+/*}*/
+
+/*.items-txt-r p{*/
+
+/*font-size:28px;!*px*!*/
+
+/*color:#323232;*/
+
+/*}*/
+
+/*.items-txt-r p:first-of-type{*/
+
+/*margin-bottom:5px;*/
+
+/*}*/
+
+/*.items-txt-r p span{*/
+
+/*line-height:40px;*/
+
+/*font-size:24px;!*px*!*/
+
+/*color:#666;*/
+
+/*}*/
+
+/*.items-txt-r{*/
+
+/*flex:1;*/
+
+/*}*/

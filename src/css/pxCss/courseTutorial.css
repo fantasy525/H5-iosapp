@@ -1,0 +1,233 @@
+body{
+    background-color:#f6f6f6;
+}
+.content{
+    padding:0 30px;
+}
+.header img{
+    width:100%;
+}
+.sub-title{
+    text-align:center;
+    font-size:28px;/*px*/
+    color:#333;
+    padding:39px 0;
+}
+.sub-title i{
+    display:inline-block;
+    vertical-align: middle;
+    width:31px;
+    border-top:1px solid #000000;/*no*/
+    margin-right:12px;
+}
+.sub-title .sub-title-linel{
+    margin-right:12px;
+}
+.sub-title .sub-title-liner{
+    margin-left:12px;
+}
+.sec-mar-top{
+    margin-top:20px;
+}
+.sec-bk{
+    background-color:#fff;
+    padding-bottom:38px;
+}
+.tutor-top{
+    width:334px;
+    height:190px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+}
+.link-a{
+    vertical-align: top;
+    display:inline-block;
+}
+.link-a div{
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+}
+.mar22-a{
+    margin-left:10px;
+}
+.bk-top-blue{
+    background:url("../images/college/shizhan1.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bk-top-blue2{
+    background:url("../images/apply/bk-dingjian.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bk-top-red{
+    background:url("../images/college/shizhan2.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bk-top-red2{
+    background:url("../images/apply/bk-zhengshu.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.tutor-top i{
+    margin-top: 7px;
+    margin-left:10px;
+   display:inline-block;
+    flex:1 ;
+}
+.gmatIcon{
+    width:58px;
+    height:56px;
+    background:url("../images/college/gmat.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.gmatIcon2{
+    width:61px;
+    height:59px;
+    background:url("../images/apply/zhengshu.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.vipIcon{
+    width:58px;
+    height:54px;
+    background:url("../images/college/gmat2.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}.vipIcon2{
+     width:58px;
+     height:59px;
+     background:url("../images/apply/zhengshu2.png") center center no-repeat;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+ }
+
+.tutor-p{
+    font-size:24px;
+    color:#fff;
+    line-height:38px;
+    margin-left:10px;
+}
+.tutor-p p:nth-child(1){
+    width:253px;
+    font-size:28px;
+    font-weight:bold;
+}
+.tutor-p p:nth-child(2){
+  margin-top:0;
+}
+.sec-bk .content div:nth-child(2) a .tutor-p p:nth-child(2){
+    margin-top:7px;
+}
+.tutor-top .tutor-p{
+    flex:5 ;
+}
+.tutor-bottom{
+    width:216px;
+    height:175px;
+}
+.bk-bottom-1{
+    background:url("../images/college/fdPic3.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}.bk-bottom-2{
+     background:url("../images/college/fdPic4.png") center center no-repeat;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+ }
+.bk-bottom-3{
+    background:url("../images/college/fdPic5.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bk-bottom-1-1{
+    background:url("../images/apply/pic1.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}.bk-bottom-2-2{
+     background:url("../images/apply/pic2.png") center center no-repeat;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+ }
+.bk-bottom-3-3{
+    background:url("../images/apply/pic3.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.sec-bk .content>div{
+    margin-top:20px;
+}
+.sec-bk .content>div:first-child{
+     margin-top:0;
+ }
+ .contact .items{
+    padding:22px 0;
+ }
+.contact .items:first-of-type{
+   padding-top:0;
+}
+.contact .items:last-of-type{
+    border-bottom:none;
+   }
+
+.items div{
+    flex:1;
+    font-size:28px;/*px*/
+    color:#323232;
+}
+.items i{
+    display:inline-block;
+    margin-right:16px;
+}
+.contact .icon1{
+    width:32px;
+    height:35px;
+    background:url("../images/college/headIcon.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.contact .icon2{
+    width:32px;
+    height:36px;
+    background:url("../images/college/phone.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.contact .icon3{
+    width:28px;
+    height:36px;
+    background:url("../images/college/location.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+/*.tese .items{*/
+    /*padding:15px 0 0;*/
+/*}*/
+/*.items-img-l{*/
+    /*width:78px;*/
+    /*height:78px;*/
+    /*margin-right:12px;*/
+/*}*/
+/*.items-txt-r {*/
+    /*padding:7px 0 24px;*/
+/*}*/
+/*.items-txt-r p{*/
+    /*font-size:28px;!*px*!*/
+    /*color:#323232;*/
+/*}*/
+/*.items-txt-r p:first-of-type{*/
+    /*margin-bottom:5px;*/
+/*}*/
+/*.items-txt-r p span{*/
+    /*line-height:40px;*/
+     /*font-size:24px;!*px*!*/
+     /*color:#666;*/
+ /*}*/
+
+ /*.items-txt-r{*/
+    /*flex:1;*/
+ /*}*/

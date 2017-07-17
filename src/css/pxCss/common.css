@@ -1,0 +1,60 @@
+.title{
+    color:#333;
+}
+.sec .title-h2{
+    font-size:28px;/*px*/
+    margin-bottom:25px;
+}
+.sec .title-h2 span{
+    display:inline-block;
+    vertical-align: middle;
+}
+.line-blue{
+    display:inline-block;
+    width:6px;
+    height:28px;
+    vertical-align:middle;
+    background-color: #1e82d2;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin-right:10px;
+}
+.title-h3{
+    margin-top:27px;
+    font-size:28px;/*px*/
+    color:#323232;
+}
+.cour-indro{
+    font-size:26px;/*px*/
+    color:#888;
+    line-height:36px;
+    margin-top:18px;
+}
+.tese .items{
+    padding:15px 0 0;
+}
+.items-img-l{
+    width:78px;
+    height:78px;
+    margin-right:12px;
+    padding:0 0 26px;
+}
+.items-txt-r {
+    padding:7px 0 24px;
+}
+.items-txt-r p{
+    font-size:28px;/*px*/
+    color:#323232;
+}
+.items-txt-r p:first-of-type{
+    margin-bottom:5px;
+}
+.items-txt-r p span{
+    line-height:40px;
+    font-size:24px;/*px*/
+    color:#666;
+}
+
+.items-txt-r{
+    flex:1;
+}

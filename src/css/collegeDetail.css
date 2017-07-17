@@ -1,0 +1,324 @@
+.banner {
+  position: relative;
+}
+
+.content {
+  background-color: #f6f6f6;
+}
+
+.banner-pic {
+  width: 100%;
+  height: 4rem;
+  vertical-align: bottom;
+}
+
+.logo-div {
+  position: absolute;
+  top: 0.266667rem;
+  left: 0.4rem;
+  width: 1.76rem;
+  height: 1.76rem;
+  -webkit-border-radius: 0.093333rem;
+  border-radius: 0.093333rem;
+  background-color: #fff;
+  text-align: center;
+  line-height: 3.133333rem;
+}
+
+.logo-div img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.school {
+  padding: 0 0.4rem 0.4rem;
+  background-color: #fff;
+}
+
+.school-name {
+  padding-top: 0.373333rem;
+  width: 8.266667rem;
+}
+
+.school-name p:first-child {
+  color: #333;
+  line-height: 0.426667rem;
+}
+
+[data-dpr="1"] .school-name p:first-child {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .school-name p:first-child {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .school-name p:first-child {
+  font-size: 42px;
+}
+
+.school-name p:last-child {
+  color: #666;
+  line-height: 0.48rem;
+  margin-top: 0.2rem;
+}
+
+[data-dpr="1"] .school-name p:last-child {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .school-name p:last-child {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .school-name p:last-child {
+  font-size: 39px;
+}
+
+.school-rank {
+  width: 0.906667rem;
+  height: 1.173333rem;
+  background: url("../images/college/sanjiao.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 0.933333rem;
+}
+
+[data-dpr="1"] .school-rank {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .school-rank {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .school-rank {
+  font-size: 39px;
+}
+
+.scores {
+  margin-top: 0.4rem;
+  background-color: #fff;
+}
+
+.scores-item {
+  height: 1.16rem;
+  padding: 0 0.4rem;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+[data-dpr="1"] .scores-item {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .scores-item {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .scores-item {
+  font-size: 36px;
+}
+
+.scores-item span:first-child {
+  color: #333;
+}
+
+.scores-item span:last-child {
+  color: #676767;
+}
+
+.school-infos {
+  margin-top: 0.4rem;
+  background-color: #fff;
+}
+
+.infos-item {
+  border-left: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  width: 3.32rem;
+  height: 3.306667rem;
+  text-align: center;
+}
+
+.school-infos .infos-item:nth-child(3n+1) {
+  border-left: none;
+}
+
+.school-infos .infos-item:nth-child(7) {
+  border-bottom: none;
+}
+
+.school-infos .infos-item:nth-child(8) {
+  border-bottom: none;
+}
+
+.school-infos .infos-item:nth-child(9) {
+  border-bottom: none;
+}
+
+.side-item {
+  width: 2.92rem!important;
+  height: 100%;
+  text-align: center;
+}
+
+.sider-padd {
+  padding-right: 0.4rem;
+}
+
+.sidel-padd {
+  padding-left: 0.4rem;
+}
+
+.infos-item .infos-icon {
+  display: inline-block;
+  margin-top: 0.76rem;
+  vertical-align: bottom;
+}
+
+.infos-icon {
+  display: inline-block;
+}
+
+.infos-i-country {
+  width: 0.613333rem;
+  height: 0.613333rem;
+  background-image: url("../images/college/usa.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-i-address {
+  width: 0.413333rem;
+  height: 0.6rem;
+  background-image: url("../images/college/address.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-i-numbers {
+  width: 0.586667rem;
+  height: 0.546667rem;
+  background-image: url("../images/college/person-head.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-i-house {
+  width: 0.56rem;
+  height: 0.6rem;
+  background-image: url("../images/college/house.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-i-clock {
+  width: 0.613333rem;
+  height: 0.613333rem;
+  background-image: url("../images/college/clock.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-i-jewel {
+  width: 0.56rem;
+  height: 0.56rem;
+  background-image: url("../images/college/jewel.png");
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+}
+
+.infos-item-name {
+  color: #333;
+  margin-top: 0.333333rem;
+}
+
+[data-dpr="1"] .infos-item-name {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .infos-item-name {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .infos-item-name {
+  font-size: 39px;
+}
+
+.infos-item-key {
+  color: #9a9a9a;
+  margin-top: 0.266667rem;
+}
+
+[data-dpr="1"] .infos-item-key {
+  font-size: 11px;
+}
+
+[data-dpr="2"] .infos-item-key {
+  font-size: 22px;
+}
+
+[data-dpr="3"] .infos-item-key {
+  font-size: 33px;
+}
+
+.infos-font {
+  margin-top: 0.76rem;
+  color: #1e82d2;
+}
+
+[data-dpr="1"] .infos-font {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .infos-font {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .infos-font {
+  font-size: 36px;
+}
+
+.footer {
+  margin-top: 0.4rem;
+}
+
+.footer .links {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #fff;
+}
+
+.footer ul li {
+  float: left;
+}
+
+.links li {
+  width: 3.32rem;
+  height: 0.373333rem;
+  text-align: center;
+  line-height: 0.373333rem;
+  border-right: 1px solid #e3e3e3;
+}
+
+.links li:last-child {
+  border-right: none;
+}
+
+.links li a {
+  color: #333;
+}
+
+[data-dpr="1"] .links li a {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .links li a {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .links li a {
+  font-size: 39px;
+}

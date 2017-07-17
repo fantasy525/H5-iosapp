@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课程辅导</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <script src="js/lib/flexible.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/courseTutorial.css">
+</head>
+<body>
+<header class="header">
+    <img src="images/college/courseBanner_02.jpg" alt="">
+</header>
+<section class="sec-bk">
+    <h2 class="sub-title"><i class="sub-title-linel"></i>课程辅导<i class="sub-title-liner"></i></h2>
+    <div class="content">
+        <div>
+            <a id="gmat" href="javascript:void(0);" onclick="noticeMsg(1)" class="link-a">
+                <div class="tutor-top bk-top-blue flex flex-align-center">
+                    <div class="flex">
+                        <i class="gmatIcon"></i><div class="tutor-p"><p>GMAT 740强化班</p><p>一听就懂，一学就会</p></div>
+                    </div>
+
+                </div>
+            </a>
+            <a id="onebyone" href="javascript:void(0);" onclick="noticeMsg(2)" class="link-a mar22-a">
+                <div class="tutor-top bk-top-red flex flex-align-center">
+                    <div class="flex">
+                        <i class="vipIcon"></i><div class="tutor-p"><p>VIP 一对一辅导</p><p>个性化辅导，高效刷分</p></div>
+                    </div>
+
+                </div></a>
+
+        </div>
+        <div>
+            <a id="explan" href="javascript:void(0);" onclick="noticeMsg(3)" class="link-a">
+                <div class="tutor-bottom bk-bottom-1 flex flex-align-center">
+                    <div class="flex">
+                        <div class="tutor-p"><p>OG 讲解</p><p>GMAT考试第一课</p></div>
+                    </div>
+
+                </div>
+            </a>
+            <a id="words" href="javascript:void(0);" onclick="noticeMsg(4)" class="link-a mar22-a">
+                <div class="tutor-bottom bk-bottom-2 flex flex-align-center">
+                    <div class="flex">
+                        <div class="tutor-p"><p>GMAT 词汇</p><p>帮你清扫词汇障碍</p></div>
+                    </div>
+
+                </div>
+            </a>
+            <a id="provide" href="javascript:void(0);" onclick="noticeMsg(5)" class="link-a mar22-a">
+                <div class="tutor-bottom bk-bottom-3 flex flex-align-center">
+                    <div class="flex">
+                        <div class="tutor-p"><p>技巧提升</p><p>帮你轻松提升技巧</p></div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="sec-bk sec-mar-top">
+    <h2 class="sub-title"><i class="sub-title-linel"></i>联系我们<i class="sub-title-liner"></i></h2>
+    <div class="content">
+        <ul class="contact lists">
+            <li class="items flex flex-align-center">
+                <i class="icon1"></i><div>Teacher Wang</div>
+            </li>
+            <li class="items flex flex-align-center">
+                <i class="icon2"></i><div id="sss" onclick="noticMsg(this,1)">18813039963</div>
+            </li>
+            <li class="items flex flex-align-center">
+                <i class="icon3"></i><div>北京市海淀区海淀北二街普天大厦6层天道教育</div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="sec-bk sec-mar-top">
+    <h2 class="sub-title"><i class="sub-title-linel"></i>特色优选<i class="sub-title-liner"></i></h2>
+    <div class="content">
+        <ul class="tese lists">
+            <li class="items flex flex-align-center">
+                <img class="items-img-l" src="images/college/yxIcon1.png" alt="">
+                <div class="items-txt-r">
+                    <p>不满意，无条件退费</p>
+                    <p><span>课前课中，不满意无条件退费</span></p>
+                </div>
+            </li>
+            <li class="items flex flex-align-center">
+                <img class="items-img-l" src="images/college/yxIcon2.png" alt="">
+                <div class="items-txt-r">
+                    <p>24*7小时随时随地学</p>
+                    <p><span>支持手机，pad设备学习，随时随地学习</span></p>
+                </div>
+            </li> <li class="items flex flex-align-center">
+            <img class="items-img-l" src="images/college/yxIcon3.png" alt="">
+            <div class="items-txt-r">
+                <p>TimeMachine时光机 温故而知新</p>
+                <p><span>课堂之外，提供课程回放，不限制学习次数</span></p>
+            </div>
+        </li> <li class="items flex flex-align-center">
+            <img class="items-img-l" src="images/college/yxIcon4.png" alt="">
+            <div class="items-txt-r">
+                <p>专属学习群组服务</p>
+                <p><span>课程班主任，学习资料分享，答疑辅导</span></p>
+            </div>
+        </li>
+            <li class="items flex flex-align-center">
+                <img class="items-img-l" src="images/college/yxIcon5.png" alt="">
+                <div class="items-txt-r">
+                    <p>支持移动支付，闪电开课</p>
+                    <p><span>支持微信，支付宝移动支付，扫码支付，二维码转账</span></p>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+</section>
+</body>
+<script type="text/javascript">
+    function noticeMsg(num, oth){
+        if (oth != undefined){
+            num = num.innerHTML;
+        }
+        var data = {
+            "operationType":num
+        };
+        window.webkit.messageHandlers.TDCourseIndex.postMessage(data);
+    }
+</script>
+</html>

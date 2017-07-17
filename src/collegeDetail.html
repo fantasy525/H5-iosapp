@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>院校详情</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <script src="js/lib/flexible.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/collegeDetail.css">
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/college/banner-pic_02.jpg" alt="" class="banner-pic">
+      <div class="logo-div">
+        <img src="images/college/schoolLogo.png" alt="">
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <section class="school flex">
+      <div class="school-name">
+        <p>纽约大学</p>
+        <p>NEWYORK</p>
+      </div>
+      <div class="school-rank">
+        1
+      </div>
+    </section>
+    <section class="scores">
+      <div class="scores-item flex flex-pack-between flex-align-center">
+        <span>Acceptance Rate</span> <span>10%</span>
+      </div>
+      <div class="scores-item flex flex-pack-between flex-align-center">
+        <span>Average GMAT</span> <span>45</span>
+      </div>
+      <div class="scores-item flex flex-pack-between flex-align-center">
+        <span>Average Undergraduate GPA</span> <span>78</span>
+      </div>
+
+
+    </section>
+    <section class="school-infos flex flex-hw">
+      <div class="infos-item">
+        <div class="side-item sidel-padd">
+          <i class="infos-icon infos-i-country"></i>
+          <p class="infos-item-name">美国</p>
+          <p class="infos-item-key">国别</p>
+        </div>
+      </div>
+      <div class="infos-item">
+        <i class="infos-icon infos-i-address"></i>
+        <p class="infos-item-name">欧洲</p>
+        <p class="infos-item-key">位置</p>
+      </div>
+      <div class="infos-item">
+        <div class="side-item sider-padd">
+          <i class="infos-icon infos-i-numbers"></i>
+          <p class="infos-item-name">730</p>
+          <p class="infos-item-key">在校人数</p>
+        </div>
+      </div>
+      <div class="infos-item">
+        <div class="side-item sidel-padd">
+          <i class="infos-icon infos-i-house"></i>
+          <p class="infos-item-name">私立</p>
+          <p class="infos-item-key">学校性质</p>
+        </div>
+      </div>
+      <div class="infos-item">
+        <i class="infos-icon infos-i-clock"></i>
+        <p class="infos-item-name">1932</p>
+        <p class="infos-item-key">建校时间</p>
+      </div>
+      <div class="infos-item">
+        <div class="side-item sider-padd">
+          <i class="infos-icon infos-i-jewel"></i>
+          <p class="infos-item-name">中国教育部认证</p>
+          <p class="infos-item-key">是</p>
+        </div>
+      </div>
+      <div class="infos-item">
+        <div class="side-item sidel-padd">
+          <p class="infos-font">TOEFL</p>
+          <p class="infos-item-name">给对方</p>
+          <p class="infos-item-key">托福要求</p>
+        </div>
+      </div>
+      <div class="infos-item">
+        <p class="infos-font">GAMT</p>
+        <p class="infos-item-name">4</p>
+        <p class="infos-item-key">GMAT要求</p>
+      </div>
+      <div class="infos-item">
+        <div class="side-item sider-padd">
+          <p class="infos-font">GPA</p>
+          <p class="infos-item-name">750</p>
+          <p class="infos-item-key">GPA要求</p>
+        </div>
+      </div>
+
+    </section>
+    <footer class="footer">
+      <ul class="clearfix links">
+        <li class="side-item sidel-padd">
+          <a id="employ" href="javascript:void(0);" onclick="noticeMsg(1)">录取信息</a>
+        </li>
+        <li>
+          <a id="cost" href="javascript:void(0);" onclick="noticeMsg(2)">留学费用</a>
+        </li>
+        <li class="side-item sider-padd">
+          <a id="require" href="javascript:void(0);" onclick="noticeMsg(3)">成绩要求</a>
+        </li>
+      </ul>
+      <ul class="clearfix links">
+        <li class="side-item sidel-padd">
+          <a id="information" href="javascript:void(0);" onclick="noticeMsg(4)">院校信息</a>
+        </li>
+        <li>
+          <a id="material" href="javascript:void(0);" onclick="noticeMsg(5)">申请材料</a>
+        </li>
+        <li class="side-item sider-padd">
+          <a id="flow" href="javascript:void(0);" onclick="noticeMsg(6)">申请流程</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</body>
+<script type="text/javascript">
+  function noticeMsg(num) {
+    var data = {
+      "operationType": num
+    };
+    window.webkit.messageHandlers.TDChatCourse.postMessage(data);
+  }
+</script>
+
+</html>

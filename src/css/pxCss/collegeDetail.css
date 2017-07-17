@@ -1,0 +1,203 @@
+.banner{
+    position:relative;
+}
+.content{
+
+    background-color:#f6f6f6;
+}
+.banner-pic{
+    width:100%;
+    height:300px;
+    vertical-align: bottom;
+}
+.logo-div{
+    position:absolute;
+    top:20px;
+    left:30px;
+    width:132px;
+    height:132px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    background-color:#fff;
+    text-align:center;
+    line-height:235px;
+}
+.logo-div img{
+    width:120px;
+    height:120px;
+}
+.school{
+    padding:0 30px 30px;
+    background-color:#fff;
+}
+.school-name{
+    padding-top:28px;
+    width:620px;
+}
+.school-name p:first-child{
+    font-size:28px;/*px*/
+    color:#333;
+    line-height:32px;
+}
+.school-name p:last-child{
+     font-size:26px;/*px*/
+     color:#666;
+    line-height:36px;
+     margin-top:15px;
+ }
+.school-rank{
+    width:68px;
+    height:88px;
+    background:url("../images/college/sanjiao.png") center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size:100% 100%;
+    color:#fff;
+    font-size:26px;/*px*/
+    text-align:center;
+    line-height:70px;
+}
+.scores{
+    margin-top:30px;
+    background-color:#fff;
+}
+.scores-item{
+    height:87px;
+    padding:0 30px;
+    border-bottom:1px solid #e3e3e3;/*no*/
+    font-size:24px;/*px*/
+}
+.scores-item span:first-child{
+   color:#333;
+}
+.scores-item span:last-child{
+    color:#676767;
+}
+.school-infos{
+    margin-top:30px;
+    background-color:#fff;
+}
+.infos-item{
+    border-left:1px solid #e3e3e3;/*no*/
+    border-bottom:1px solid #e3e3e3;/*no*/
+    width:249px;
+    height:248px;
+    text-align:center;
+}
+.school-infos .infos-item:nth-child(3n+1)
+{
+    border-left:none;
+}
+.school-infos .infos-item:nth-child(7)
+{
+    border-bottom:none;
+}
+.school-infos .infos-item:nth-child(8)
+{
+    border-bottom:none;
+}
+.school-infos .infos-item:nth-child(9)
+{
+    border-bottom:none;
+}
+.side-item{
+    width:219px!important;
+    height:100%;
+    text-align:center;
+}
+.sider-padd{
+    padding-right:30px;
+}
+.sidel-padd{
+    padding-left:30px;
+}
+.infos-item .infos-icon{
+    display:inline-block;
+    margin-top:57px;
+    vertical-align:bottom;
+}
+.infos-icon{
+    display:inline-block;
+}
+.infos-i-country{
+    width:46px;
+    height:46px;
+    background-image:url("../images/college/usa.png");
+    background-position:center center;
+    -webkit-background-size: 100% 100%;
+}
+.infos-i-address{
+     width:31px;
+     height:45px;
+     background-image:url("../images/college/address.png");
+     background-position:center center;
+     -webkit-background-size: 100% 100%;
+ }
+.infos-i-numbers{
+    width:44px;
+    height:41px;
+    background-image:url("../images/college/person-head.png");
+    background-position:center center;
+    -webkit-background-size: 100% 100%;
+}
+.infos-i-house{
+     width:42px;
+     height:45px;
+     background-image:url("../images/college/house.png");
+     background-position:center center;
+     -webkit-background-size: 100% 100%;
+ }
+.infos-i-clock{
+    width:46px;
+    height:46px;
+    background-image:url("../images/college/clock.png");
+    background-position:center center;
+    -webkit-background-size: 100% 100%;
+}
+.infos-i-jewel{
+     width:42px;
+     height:42px;
+     background-image:url("../images/college/jewel.png");
+     background-position:center center;
+     -webkit-background-size: 100% 100%;
+ }
+
+.infos-item-name{
+    font-size:26px;/*px*/
+    color:#333;
+    margin-top:25px;
+}
+.infos-item-key{
+    font-size:22px;/*px*/
+    color:#9a9a9a;
+    margin-top:20px;
+}
+.infos-font{
+    margin-top:57px;
+    color:#1e82d2;
+    font-size:24px;/*px*/
+}
+.footer{
+    margin-top:30px;
+}
+.footer .links{
+    padding:30px 0px;
+    border-bottom:1px solid #e3e3e3;/*no*/
+    background-color:#fff;
+}
+.footer ul li{
+    float:left;
+}
+.links li{
+    width:249px;
+    height:28px;
+    text-align:center;
+    line-height:28px;
+   border-right:1px solid #e3e3e3;/*no*/
+}
+.links li:last-child{
+    border-right:none;
+}
+.links li a{
+    font-size:26px;/*px*/
+    color:#333;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课程辅导</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <script src="js/lib/flexible.js"></script>
+    <script src="js/lib/template-web.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/courseTutorial.css">
+</head>
+<body data-pageIndex={$operationType} id="content2">
+<script type="text/html" id="tpl">
+<header class="header" >
+    <img src="{{imgSrc.srcs[index]}}" alt="">
+</header>
+    <section class="sec-bk">
+        <h2 class="sub-title"><i class="sub-title-linel"></i>{{one.name[index]}}<i class="sub-title-liner"></i></h2>
+        <div class="content">
+            <div>
+                <a id="gmat" href="javascript:void(0);" onclick="noticeMsg(1)" class="link-a">
+                    <div class="tutor-top {{one.t1[index].bk}} flex flex-align-center">
+                        <div class="flex">
+                            <i class="{{one.t1[index].icon}}"></i><div class="tutor-p"><p>{{one.t1[index].h1}}</p><p>{{one.t1[index].h2}}</p></div>
+                        </div>
+
+                    </div>
+                </a>
+                <a id="onebyone" href="javascript:void(0);" onclick="noticeMsg(2)" class="link-a mar22-a">
+                    <div class="tutor-top {{one.t2[index].bk}} flex flex-align-center">
+                        <div class="flex">
+                            <i class="{{one.t2[index].icon}}"></i><div class="tutor-p"><p>{{one.t2[index].h1}}</p><p>{{one.t2[index].h2}}</p></div>
+                        </div>
+                    </div></a>
+            </div>
+            <div>
+                <a id="explan" href="javascript:void(0);" onclick="noticeMsg(3)" class="link-a">
+                    <div class="tutor-bottom {{one.t3[index].bk}} flex flex-align-center">
+                        <div class="flex">
+                            <div class="tutor-p"><p>{{one.t3[index].h1}}</p><p>{{one.t3[index].h2}}</p></div>
+                        </div>
+
+                    </div>
+                </a>
+                <a id="words" href="javascript:void(0);" onclick="noticeMsg(4)" class="link-a mar22-a">
+                    <div class="tutor-bottom {{one.t4[index].bk}} flex flex-align-center">
+                        <div class="flex">
+                            <div class="tutor-p"><p>{{one.t4[index].h1}}</p><p>{{one.t4[index].h2}}</p></div>
+                        </div>
+
+                    </div>
+                </a>
+                <a id="provide" href="javascript:void(0);" onclick="noticeMsg(5)" class="link-a mar22-a">
+                    <div class="tutor-bottom {{one.t3[index].bk}} flex flex-align-center">
+                        <div class="flex">
+                            <div class="tutor-p"><p>{{one.t5[index].h1}}</p><p>{{one.t5[index].h2}}</p></div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="sec-bk sec-mar-top">
+        <h2 class="sub-title"><i class="sub-title-linel"></i>联系我们<i class="sub-title-liner"></i></h2>
+        <div class="content">
+            <ul class="contact lists">
+                <li class="items flex flex-align-center">
+                    <i class="icon1"></i><div>Teacher Wang</div>
+                </li>
+                <li class="items flex flex-align-center">
+                    <i class="icon2"></i><div id="sss" onclick="noticMsg(this,1)">18813039963</div>
+                </li>
+                <li class="items flex flex-align-center">
+                    <i class="icon3"></i><div>北京市海淀区海淀北二街普天大厦6层天道教育</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-bk sec-mar-top">
+        <h2 class="sub-title"><i class="sub-title-linel"></i>特色优选<i class="sub-title-liner"></i></h2>
+        <div class="content">
+            <ul class="tese lists">
+                <li class="items flex flex-align-center">
+                    <img class="items-img-l" src="images/college/yxIcon1.png" alt="">
+                    <div class="items-txt-r">
+                        <p>不满意，无条件退费</p>
+                        <p><span>课前课中，不满意无条件退费</span></p>
+                    </div>
+                </li>
+                <li class="items flex flex-align-center">
+                    <img class="items-img-l" src="images/college/yxIcon2.png" alt="">
+                    <div class="items-txt-r">
+                        <p>24*7小时随时随地学</p>
+                        <p><span>支持手机，pad设备学习，随时随地学习</span></p>
+                    </div>
+                </li>
+                {{each three val key}}
+                {{if val[index].imgSrc!==""}}
+                <li class="items flex flex-align-center">
+                    <img class="items-img-l" src="{{val[index].imgSrc}}" alt="">
+                    <div class="items-txt-r">
+                        <p>{{val[index].p1}}</p>
+                        <p><span>{{val[index].p2}}</span></p>
+                    </div>
+                </li>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+</script>
+</body>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+    function noticeMsg(num, oth){
+        if (oth != undefined){
+            num = num.innerHTML;
+        }
+        var data = {
+            "operationType":num
+        };
+        window.webkit.messageHandlers.TDCourseIndex.postMessage(data);
+    }
+</script>
+</html>
